@@ -1,8 +1,9 @@
 export interface TrackTour {
-workerName:string;
-distance:number;
-numberOfTours:number;
- price:number;
- priceOfToll:number;
- averageDistance:number;
+radnik:string;
+kilometraza:number;
+broj_tura:number;
+ cena_ture:number;
+ cena_putarine:number;
+ procecna_km:number;
+ 
 }
